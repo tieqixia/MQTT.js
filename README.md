@@ -223,7 +223,7 @@ Send an MQTT publish packet.
 `options` supports the following properties:
 
 * `topic`: the topic to publish to. `string`
-* `payload`: the payload to publish, defaults to an empty buffer. `string` or `buffer`
+* `payload`: the payload to publish, defaults to `""`. `string`
 * `qos`: the quality of service level to publish on. `number` between `0` and `2`
 * `messageId`: the message ID of the packet, defaults to a random integer between `0` and `65535`. `number`
 * `retain`: whether or not to retain the published message. `boolean`
